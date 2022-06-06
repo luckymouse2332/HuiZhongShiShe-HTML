@@ -1,0 +1,22 @@
+a:link{/* 未访问的链接 */
+    color: black;
+    text-decoration: none;
+}
+a:visited{/* 已访问的链接 */
+    color:black;
+}
+a:hover{/* 鼠标划过链接 */
+    color: red;
+    text-decoration:none;
+}
+a:active{/* 已选中的链接 */
+    color:white;
+}
+
+body{
+    background-color: #E1E6C7;;
+}
+.menu{
+    background-color: #f0efe2;
+    float: left;
+}

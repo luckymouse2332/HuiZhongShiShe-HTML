@@ -1,0 +1,62 @@
+a:link{/* 未访问的链接 */
+    color: black;
+    text-decoration: none;
+}
+a:visited{/* 已访问的链接 */
+    color:black;
+}
+a:hover{/* 鼠标划过链接 */
+    color: red;
+    text-decoration:none;
+}
+a:active{/* 已选中的链接 */
+    color:white;
+}
+
+body{
+    background-color: #E1E6C7;;
+}
+.menu{
+    background-color: #f0efe2;
+    float: left;
+    width: 300px;
+}
+.main{
+    background-color: #f0efe2;
+}
+.header{
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f0efe2;
+}
+
+/*设置靠左*/
+li {
+    float: left;
+}
+
+li a {
+    display: block;/*形成方框*/
+    color: #6545;/*颜色*/
+    text-align: center;/*设置文字在框（block）中的位置*/
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*鼠标移动到选项上修改背景颜色 */
+li a:hover:not(.active) {/*非已选中的链接*/
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
